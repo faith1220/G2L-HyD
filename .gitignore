@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.log
+
+# Ignore large data directories commonly found in DL projects
+data/
+datasets/
+checkpoints/
+weights/
+*.pth
+*.onnx
+*.pkl
+
+# Allow important CSVs in the prepare_data folder
+!prepare_data/split_csv/*.csv
